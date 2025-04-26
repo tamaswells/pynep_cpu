@@ -1,0 +1,12 @@
+# MANIFEST.in 文件
+include requirements.txt
+include README.md
+
+recursive-include src *
+prune **/__pycache__
+prune docs
+prune tools
+prune .idea
+prune .github
+
+
